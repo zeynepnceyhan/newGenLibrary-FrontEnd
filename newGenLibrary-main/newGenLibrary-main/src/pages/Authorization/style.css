@@ -1,0 +1,46 @@
+/* Import Google font - Poppins */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins",
+    sans-serif;
+}
+
+.main-container {
+  height: 100vh; /* 100 viewport height olarak ayarlanabilir */
+  /* İsterseniz başka stiller ekleyebilirsiniz */
+}
+
+.form{
+  margin-top: 10%;
+  background-color: white;
+  opacity: 0.9;
+  border-radius: 10%;
+}
+
+.form-label{
+  border-radius: 10%;
+  font-weight: 500;
+}
+
+.form-control{
+  border-radius: 10%;
+}
+
+.text1{
+  font-size: xx-large;
+  font-weight: 500;
+  margin-top: 10%;
+  margin-bottom: 5%;
+  color: #459C67;
+  border-bottom-width: 2px;
+  border-bottom-color: #378257;
+  border-radius: 10%;
+}
+
+.btn-primary{
+  border-radius: 30%;
+  margin-bottom: 2%;
+}
